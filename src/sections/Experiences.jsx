@@ -1,9 +1,9 @@
-import TimeLine from './components/TimeLine'
 import { experiences } from "../constants"
+import Timeline from "./components/Timeline"
 const Experiences = () => {
   return (
     <div className='w-full'>
-     <TimeLine  data={experiences}/>
+     <Timeline  data={experiences}/>
     </div>
   )
 }
